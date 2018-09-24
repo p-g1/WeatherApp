@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather app for front-end job application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petegarvin1/weather.git"
+  },
+  "author": "Pete Garvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/petegarvin1/weather/issues"
+  },
+  "homepage": "https://github.com/petegarvin1/weather#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
