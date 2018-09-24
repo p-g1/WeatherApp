@@ -1,5 +1,5 @@
 const http = new XMLHttpRequest(),
-      url='http://api.openweathermap.org/data/2.5/forecast?q=London,GB&units=metric&appid=c73ba9db4e80a01ed143a90d6a017168';
+      url='https://api.openweathermap.org/data/2.5/forecast?q=London,GB&units=metric&appid=c73ba9db4e80a01ed143a90d6a017168';
 
 http.open('GET', url, true);
 http.send();
