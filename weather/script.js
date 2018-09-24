@@ -1,6 +1,16 @@
 const url='https://api.openweathermap.org/data/2.5/forecast?q=London,GB&units=metric&appid=c73ba9db4e80a01ed143a90d6a017168';
 
-fetch(url).then(function(response) {
+//handle any error in api call
+function handleErrors(response) {
+  if (!response.ok) {
+      throw Error(response.statusText);
+  }
+  return response;
+}
+
+//fetch data from api
+fetch(url).then(handleErrors)
+          .then(function(response) {
               return response.json();
             })
           .then(function(json) {
