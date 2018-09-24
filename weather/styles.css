@@ -21,7 +21,7 @@ body {
 .focus-container {
   width: 100%;
   position: fixed;
-  top: 120px;
+  top: 8em;
 }
   
 #weather-container {
@@ -29,26 +29,26 @@ body {
 }
 
 .focus-weather-details {
-  font-size: 40px;
+  font-size: 3em;
   text-align: right;
-  height: 200px;
-  margin-top: 50px;
-  margin-right: 20px;
+  height: 5em;
+  margin-top: 1em;
+  margin-right: 0.1em;
 }
 
 #focus-type {
-  margin-bottom: 0px;
+  margin-bottom: 0em;
 }
   
 #focus-temp {
-  margin-top: 0px;
+  margin-top: 0em;
 }
 
 #focus-pic-container {
   text-align: left;
-  margin-left: 40px;
-  margin-top: 20px;
-  height: 200px;
+  margin-left: 2em;
+  margin-top: 2em;
+  height: 17em;
 }
 
 #location-container {
@@ -57,17 +57,19 @@ body {
 
 #location, #dateToday {
   text-align: center;
-  margin-right: 40px;
+  margin-right: 2em;
 }
 
 #location {
-  font-size: 60px;
-  margin-top: 50px;
+  font-size: 3.5em;
+  margin-top: 1em;
 }
 
 #dateToday {
-  font-size: 20px;
-  margin-top: 10px;
+  font-size: 1.2em;
+  margin-top: 0.2em;
+  margin-right: 0.2em;
+  width: 27.5em;
 }
   
   /* 5 day forecast bar */
@@ -78,7 +80,7 @@ body {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: rgba(110, 110, 110, 0.7);
+  background-color: rgba(110, 110, 110, 0.4);
 }
   
 .day {
@@ -88,25 +90,25 @@ body {
 }
 
 .date {
-  margin-top: 20px;
+  margin-top: 1em;
 }
   
 .type {
-  font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 0px;
+  font-size: 1.8em;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
 }
   
 .dailypic {
   height: 40%;
   width: 50%;
-  margin-top: 10px;
-  margin-left: 65px;
-  margin-bottom: -40px;
+  margin-top: 0.5em;
+  margin-left: 4em;
+  margin-bottom: -2.5em;
 }
 
 .temp {
-  font-size: 30px; 
-  margin-bottom: 0px;
-  margin-top: 10px;
+  font-size: 1.8em; 
+  margin-bottom: 0em;
+  margin-top: 0.5em;
   }
