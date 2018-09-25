@@ -1,3 +1,7 @@
+html {
+  font-size: 100%;
+}
+
 body {
     background-image: url("https://www.pixel-creation.com/wp-content/uploads/blue-sky-wallpapers-hd-wallpapers-id-532.jpg");
     background-position: center;
@@ -116,7 +120,7 @@ margin-bottom: 25%;
 }
 
 .temp {
-  font-size: 170%; 
+  font-size: 1.5em; 
   margin-top: 2%;
   margin-bottom: 5%;
   }
