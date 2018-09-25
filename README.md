@@ -19,8 +19,11 @@ The app can be found hosted through Heroku at: http://pgweatherapp.herokuapp.com
 Running the app from source code
 
 Clone repository to your own directory
+
 Navigate to the root directory in a command line window
+
 Run the command ‘node server.js’
+
 Head to localhost:8080 in your browser
 
 ——————
