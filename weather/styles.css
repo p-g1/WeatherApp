@@ -3,10 +3,12 @@ body {
     background-position: center;
     height: 100%;
     width: 100%;
+    border: 1px solid green;
   }
   
 .focus-container, #weather-container, #location-container, #focus-pic-container, #five-day-container, .day {
   display: flex;
+  
 }
 
 #weather-container, #location-container, #focus-pic-container, .focus-weather-details {
@@ -20,53 +22,63 @@ body {
 
 .focus-container {
   width: 100%;
-  position: fixed;
-  top: 16%;
+  height: 70%;
 }
   
 #weather-container {
   text-align: center;
+  width: 50%;
 }
 
 .focus-weather-details {
   font-size: 240%;
   text-align: right;
-  height: 40%;
-  margin-top: 10%;
-  margin-right: 1%;
+  width: 50%;
+  height: 100%;
+}
+
+#focus-type {
+  margin-top: 50%;
 }
 
 #focus-type, #focus-temp {
   margin-bottom: 0%;
+  
+ 
 }
 
 #focus-pic-container {
   text-align: left;
-  margin-left: 5%;
-  margin-top: 5%;
-  height: 90%;
+  width: 50%;
+  height: 100%;
+}
+
+.focus-img {
+  margin-top: 40%;
+  margin-left: 10%;
 }
 
 #location-container {
   flex-direction: column;
-  width: 40%;
-
+  width: 50%;
+  margin-right: 10%;
 }
 
 #location, #dateToday {
   text-align: center;
   margin-right: 17%;
   width: 100%;
+  height: 50%;
 }
 
 #location {
   font-size: 400%;
-  margin-top: 10%;
+  margin-top: 25%;
 }
 
 #dateToday {
   font-size: 150%;
-  margin-top: 1%;
+margin-bottom: 25%;
 }
   
   /* 5 day forecast bar */
