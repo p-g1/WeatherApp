@@ -35,7 +35,7 @@ body {
 }
 
 .focus-weather-details {
-  font-size: 240%;
+  font-size: 3vw;
   text-align: right;
   width: 50%;
   height: 100%;
@@ -47,8 +47,6 @@ body {
 
 #focus-type, #focus-temp {
   margin-bottom: 0%;
-  
- 
 }
 
 #focus-pic-container {
@@ -76,19 +74,18 @@ body {
 }
 
 #location {
-  font-size: 400%;
+  font-size: 5vw;
   margin-top: 25%;
 }
 
 #dateToday {
-  font-size: 150%;
+  font-size: 2vw;
 margin-bottom: 25%;
 }
   
   /* 5 day forecast bar */
 #five-day-container {
   width: 100%;
- 
   position: fixed;
   bottom: 0;
   left: 0;
@@ -105,10 +102,11 @@ margin-bottom: 25%;
 .date {
   margin-top: 5%;
   margin-bottom: 2%;
+  font-size: 1.5vw;
 }
   
 .type {
-  font-size: 170%;
+  font-size: 2vw;
   margin-top: 2%;
   margin-bottom: 2%;
 }
