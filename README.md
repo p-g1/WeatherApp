@@ -33,18 +33,18 @@ Things I would add/change:
 
 Features
 
-Location search
+Location search:\n 
 I would like to add the ability to search for weather in other locations. I’d suggest a search bar with typeahead/auto-complete.
 
 
-Geolocation
+Geolocation: \n
 It would be handy to let the browser determine the user location and present the weather relevant to that.
 
 -
 
-Improvements:
+Improvements:\n
 
-Weather reading times
+Weather reading times: 
 The API provides weather statistics on a 3-hourly basis. Given that my app uses a single daily weather point, I needed to select a single reading.
 
 As the first reading in the 5 day forecast is for the day the app is used, the first reading is taken from the 3 hour window in which the app is activated. For consistency, I then used the same time window for all subsequent days forecast.
