@@ -7,7 +7,6 @@ body {
     background-position: center;
     height: 100%;
     width: 100%;
-    border: 1px solid green;
   }
   
 .focus-container, #weather-container, #location-container, #focus-pic-container, #five-day-container, .day {
