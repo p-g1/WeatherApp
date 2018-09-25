@@ -5,11 +5,11 @@ body {
     width: 100%;
   }
   
-.focus-container, #weather-container, #location-container {
+.focus-container, #weather-container, #location-container, #focus-pic-container, #five-day-container, .day {
   display: flex;
 }
 
-#weather-container, .focus-weather-details, #focus-pic-container, #location-container {
+#weather-container, #location-container, #focus-pic-container, .focus-weather-details {
   width: 50%;
 }
 
@@ -74,7 +74,6 @@ body {
   
   /* 5 day forecast bar */
 #five-day-container {
-  display: flex;
   width: 100%;
   height: 30%;
   position: fixed;
@@ -87,6 +86,7 @@ body {
   width: 20%;
   bottom: 0;
   text-align: center;
+  flex-direction: column;
 }
 
 .date {
