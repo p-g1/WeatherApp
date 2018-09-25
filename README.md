@@ -53,7 +53,7 @@ This doesn’t seem very robust as in many situations someone would be looking a
 
 This would need to be discussed with the client/user to understand better their requirements.
 
-Cross-device compatability
+Cross-device compatability:
 Effort has been made to design a responsive app. Testing has shown it to be consistent across landscape oriented devices / screens of different sizes however portrait oriented screens are not yet catered for.
 
 -
