@@ -70,3 +70,4 @@ Styling is all done in plain CSS. The file could be made more maintainable using
 Testing
 Other than catching an API response error there are no tests. Some would need to be written.
 
+Personal API Key isn't masked currently. I'm hoping the hackers aren't trying to use my weather API. Should be fixed.
