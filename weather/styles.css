@@ -41,7 +41,7 @@ body {
 }
 
 #focus-type {
-  margin-top: 50%;
+  margin-top: 22vh;
 }
 
 #focus-type, #focus-temp {
@@ -55,7 +55,7 @@ body {
 }
 
 .focus-img {
-  margin-top: 40%;
+  margin-top: 18vh;
   margin-left: 10%;
   font-size: 12vw;
 }
