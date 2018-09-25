@@ -39,7 +39,7 @@ fetch(url).then(handleErrors)
       //multiplication and division to achieve 2 decimal places
       e === 'focus-temp' ? Math.round(json.list[0].main.temp * 10 ) / 10 + " o".sup() + "C":
       e === 'location' ? json.city.name + ', ' + json.city.country:
-      '<i class="' + images[json.list[0].weather[0].main].icon + ' fa-10x focus-img"></i>';
+      '<i class="' + images[json.list[0].weather[0].main].icon + ' focus-img"></i>';
   })
  
   //populate 5 day forecast data
@@ -59,7 +59,7 @@ fetch(url).then(handleErrors)
                 document.getElementById(x).innerHTML = 
                 //index*8 used to get one regular daily reading. API provides 3 hourly (24/3 = 8)
                   id === 'type' ? json.list[i*8].weather[0].main:
-                  id === 'pic' ? '<i class="' + images[json.list[i*8].weather[0].main].icon + ' fa-3x"></i>':
+                  id === 'pic' ? '<i class="' + images[json.list[i*8].weather[0].main].icon + '"></i>':
                   id === 'date' ? date.toLocaleString('en-gb').slice(0, 5):
                   //multiplication and division to achieve 2 decimal places
                   Math.round(json.list[i*8].main.temp * 10 ) / 10 + " o".sup() + "C";

@@ -58,6 +58,7 @@ body {
 .focus-img {
   margin-top: 40%;
   margin-left: 10%;
+  font-size: 12vw;
 }
 
 #location-container {
@@ -115,6 +116,7 @@ margin-bottom: 25%;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-size: 4vw;
 }
 
 .temp {
