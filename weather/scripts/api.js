@@ -1,5 +1,3 @@
-
-
 //function to handle any error in api call
 export function handleErrors(response) {
   if (!response.ok) {

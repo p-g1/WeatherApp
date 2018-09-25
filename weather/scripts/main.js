@@ -9,16 +9,17 @@ api.getData().then(api.handleErrors)
                 return response.json();
             })
             .then(json => {
-
+                
+            const currentWeather = json.list[0].weather[0].main;
             var date = new Date();
             
             //set long hand date  
             document.getElementById('dateToday').innerHTML = date.toLocaleString('en-gb', {weekday: 'long', day: 'numeric', month: 'long'});
             
             //set main background and icon from json
-            document.body.style.backgroundImage = 'url("' + images.pictures[json.list[0].weather[0].main].background; + '")';
+            document.body.style.backgroundImage = 'url("' + images.pictures[currentWeather].background; + '")';
            
-            focusWeather.populateFocusWeather(json, images.pictures);
+            focusWeather.populateFocusWeather(json, images.pictures, currentWeather);
 
             forecast.populateFiveDay(json, images.pictures);
             });
