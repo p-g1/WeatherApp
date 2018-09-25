@@ -1,7 +1,3 @@
-html {
-  font-size: 100%;
-}
-
 body {
     background-image: url("https://www.pixel-creation.com/wp-content/uploads/blue-sky-wallpapers-hd-wallpapers-id-532.jpg");
     background-position: center;
@@ -10,8 +6,7 @@ body {
   }
   
 .focus-container, #weather-container, #location-container, #focus-pic-container, #five-day-container, .day {
-  display: flex;
-  
+  display: flex;  
 }
 
 #weather-container, #location-container, #focus-pic-container, .focus-weather-details {
@@ -36,7 +31,6 @@ body {
 .focus-weather-details {
   font-size: 3vw;
   text-align: right;
-  width: 50%;
   height: 100%;
 }
 
@@ -50,27 +44,25 @@ body {
 
 #focus-pic-container {
   text-align: left;
-  width: 50%;
   height: 100%;
 }
 
 .focus-img {
+  font-size: 12vw;
   margin-top: 18vh;
   margin-left: 10%;
-  font-size: 12vw;
 }
 
 #location-container {
   flex-direction: column;
-  width: 50%;
   margin-right: 10%;
 }
 
 #location, #dateToday {
-  text-align: center;
-  margin-right: 17%;
   width: 100%;
   height: 50%;
+  text-align: center;
+  margin-right: 17%;
 }
 
 #location {
@@ -85,7 +77,7 @@ body {
   top: 0;
 }
   
-  /* 5 day forecast bar */
+/* 5 day forecast bar */
 #five-day-container {
   width: 100%;
   position: fixed;
@@ -95,16 +87,16 @@ body {
 }
   
 .day {
-  width: 20%;
-  bottom: 0;
   text-align: center;
   flex-direction: column;
+  width: 20%;
+  bottom: 0;
 }
 
 .date {
+  font-size: 1.5vw;
   margin-top: 5%;
   margin-bottom: 2%;
-  font-size: 1.5vw;
 }
   
 .type {
@@ -114,10 +106,10 @@ body {
 }
   
 .dailypic {
+  font-size: 4vw;
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
-  font-size: 4vw;
 }
 
 .temp {
