@@ -37,6 +37,8 @@ I would like to add the ability to search for weather in other locations. I’d 
 Geolocation
 It would be handy to let the browser determine the user location and present the weather relevant to that.
 
+-
+
 Improvements:
 
 Weather reading times
@@ -48,11 +50,20 @@ This doesn’t seem very robust as in many situations someone would be looking a
 
 This would need to be discussed with the client/user to understand better their requirements.
 
+Cross-device compatability
+Effort has been made to design a responsive app. Testing has shown it to be consistent across landscape oriented devices / screens of different sizes however portrait oriented screen are not yet catered for.
 
-Technical Debt
+-
+
+Technical Debt:
 
 CSS Clean Up / Sass implementation
 
 In current form CSS has a mis-match of unit types (vw/vh/%) from testing for responsive design. This should be cleaned up.
 
 Styling is all done in plain CSS. The file could be made more maintainable using a pre-processor like Sass.
+
+
+Testing
+Other than catching an API response error there are no tests. Some would need to be written.
+
