@@ -75,12 +75,14 @@ body {
 
 #location {
   font-size: 5vw;
-  margin-top: 25%;
+  margin-top: 20vh;
+  margin-bottom: -5vh;
 }
 
 #dateToday {
   font-size: 2vw;
-margin-bottom: 25%;
+  margin-bottom: 25%;
+  top: 0;
 }
   
   /* 5 day forecast bar */
