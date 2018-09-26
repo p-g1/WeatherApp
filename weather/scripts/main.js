@@ -4,7 +4,7 @@ import * as images from './images.js';
 
 //get api data
 const http = new XMLHttpRequest();
-const url='https://api.openweathermap.org/data/2.5/forecast?q=London,GB&units=metric&appid=c73ba9db4e80a01ed143a90d6a017168';
+const url='https://api.openweathermap.org/data/2.5/forecast?q=London,GBmode=xml&units=metric&appid=c73ba9db4e80a01ed143a90d6a017168';
 
 http.open('GET', url, true);
 http.send();
