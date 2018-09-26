@@ -17,6 +17,10 @@ body {
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
+#error-container {
+  font-size: 2vw;
+}
+
 .focus-container {
   width: 100%;
   height: 70%;

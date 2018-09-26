@@ -66,9 +66,10 @@ This would need to be discussed with the client/user to understand better their 
 
 Effort has been made to design a responsive app. Testing has shown it to be consistent across landscape oriented devices / screens of different sizes however portrait oriented screens are not yet catered for. At very least I'd like to add feedback in portrait orientation that the user should rotate their device.
 
-#### User error feedback
+#### API error feedback
 
-I would like to provide the user with an error message in the event the api returns no data. Currently they get nothing. This could be as simple as a black screen with a message to try later.
+Should log more details of error. 
+
 
 -
 

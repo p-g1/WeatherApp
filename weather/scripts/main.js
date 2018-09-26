@@ -9,7 +9,14 @@ const url='https://api.openweathermap.org/data/2.5/forecast?q=London,GBmode=xml&
 http.open('GET', url, true);
 http.send();
 http.onreadystatechange = function() {
-  var json = JSON.parse(http.response);         
+  if (http.status == 200) {
+      var json = JSON.parse(http.response);   
+    }
+  else {
+    document.getElementById('error-container').innerHTML = 
+    "Sorry, we had issues grabbing your data... Maybe take an umbrella just in case!";
+  }
+    
   const currentWeather = json.list[0].weather[0].main;
   var date = new Date();
             
