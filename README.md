@@ -22,6 +22,8 @@ The app can be found hosted through [Heroku](http://pgweatherapp.herokuapp.com)
 
 - Navigate to the root directory in a command line window
 
+- Run the command 'npm install' to install packages
+
 - Run the command ‘node server.js’
 
 - Head to localhost:8080 in your browser
