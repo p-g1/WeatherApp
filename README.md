@@ -26,7 +26,7 @@ The app can be found hosted through [Heroku](http://pgweatherapp.herokuapp.com)
 
 - Run the command ‘node server.js’
 
-- Head to localhost:8080 in your browser
+- Head to localhost:8080 in your browser (Chrome or Firefox)
 
 ——————
 
@@ -47,6 +47,10 @@ It would be handy to let the browser determine the user location and present the
 -
 
 ### Improvements
+
+#### IE support
+
+Tried to support IE11 by downgrading fetch() api call to XMLHTTP but still ran into access issues. Given time limitations IE support is unfinished.
 
 #### Weather reading times
 
