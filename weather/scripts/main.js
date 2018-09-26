@@ -24,7 +24,7 @@ http.onreadystatechange = function() {
   document.getElementById('dateToday').innerHTML = date.toLocaleString('en-gb', {weekday: 'long', day: 'numeric', month: 'long'});
             
   //set main background and icon from json
-  document.body.style.backgroundImage = 'url("' + images.pictures[currentWeather].background; + '")';
+  document.body.style.backgroundImage = 'url("' + images.pictures[currentWeather].background; + '") no-repeat center center fixed;';
            
   focusWeather.populateFocusWeather(json, images.pictures, currentWeather);
 
