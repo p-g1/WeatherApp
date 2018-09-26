@@ -1,5 +1,5 @@
 export const days = document.getElementById('five-day-container').children,
-    daysArray = Object.values(days).map(x=>x.id);
+             daysArray = Object.values(days).map(x => x.id);
 
 export function populateFiveDay(json, images) { 
     daysArray.forEach((e, i) => {
