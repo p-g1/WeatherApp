@@ -1,10 +1,10 @@
 body {
-    background-image: url("https://www.pixel-creation.com/wp-content/uploads/blue-sky-wallpapers-hd-wallpapers-id-532.jpg");
+    background-image: url('https://www.pixel-creation.com/wp-content/uploads/blue-sky-wallpapers-hd-wallpapers-id-532.jpg');
     background-position: center;
     height: 100%;
     width: 100%;
   }
-  
+
 .focus-container, #weather-container, #location-container, #focus-pic-container, #five-day-container, .day {
   display: flex;  
 }
@@ -15,7 +15,7 @@ body {
 
 #focus-type, #focus-temp, .focus-img, #location, .type, .temp, .day, .date, #dateToday {
   color: white;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 .focus-container {
@@ -25,7 +25,6 @@ body {
   
 #weather-container {
   text-align: center;
-  width: 50%;
 }
 
 .focus-weather-details {
