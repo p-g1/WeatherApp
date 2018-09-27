@@ -1,8 +1,8 @@
 body {
-    background-image: url('https://www.pixel-creation.com/wp-content/uploads/blue-sky-wallpapers-hd-wallpapers-id-532.jpg');
-    background-position: center;
-    height: 100%;
-    width: 100%;
+  background: no-repeat center center fixed; 
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   }
 
 .focus-container, #weather-container, #location-container, #focus-pic-container, #five-day-container, .day {
